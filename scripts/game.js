@@ -151,10 +151,10 @@ class controller {
                 requestAnimationFrame(this.animationFrame);
             }
             else if (this.checkBreakout() == 0) {
-                this.writeMessage("Game Over! Du vann tryck på r för att start om.");
+                this.writeMessage("Game Over! Du vann tryck på r för att starta om.");
             }
             else {
-                this.writeMessage("Game Over! Du förlorade tryck på r för att start om.");
+                this.writeMessage("Game Over! Du förlorade tryck på r för att starta om.");
             }
         };
         /**
